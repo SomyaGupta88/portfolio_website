@@ -267,79 +267,8 @@ p{
 #hero h1:nth-child(3)  span{
     animation-delay: 2.5s;
 }
-
 /*end hero section*/
 
-/*services section*/
-#services .services{
-    flex-direction: column;
-    text-align: center;
-    max-width: 1500px;
-    margin: 0 auto;
-    padding: 100px 0;
-}
-#services .section-title{
-    font-size: 4rem;
-    font-weight: 300;
-    margin-bottom: 10px;
-    color:black;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    text-align: center;
-}
-#services .section-title span{
-    color: rgb(163, 20, 220);
-}
-
-#services .service-bottom{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
-}
-#services .service-item{
-    flex-basis: 80%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    padding: 30px;
-    border-radius: 20px;
-    background-image: url(./img/img-1.png);
-    background-size: cover;
-    margin: 10px 5%;
-    z-index: 1;
-    position: relative;
-    overflow: hidden;
-}
-#services .service-item::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: .9;
-    z-index: -1;
-}
-#services .service-bottom .icon{
-    height: 80px;
-    width: 80px;
-    margin-bottom: 20px;
-}
-#services .service-item h2{
-    font-size: 2rem;
-    color: white;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
-#services .service-item p{
-    color: white;
-    text-align: left;
-}
-/*end services section*/
 
 /*project section*/
 #projects .projects{
